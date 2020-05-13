@@ -1,0 +1,54 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;1,600&display=swap" rel="stylesheet">
+
+    <script src="main.js"></script>
+</head>
+
+<body onload="fetchQuote()">
+    <div id="quote-box">
+        <!-- <div id="setting-div">
+            <i class="fa fa-cog fa-2x" style="color: black"></i>
+        </div> -->
+        <div id="author-div">
+            <p id="author"></p>
+        </div>
+        <div id="timer-div">
+            <p id="timer"></p>
+        </div>
+        <div id="main-div">
+            <p id="text"></p>
+        </div>
+        <div id="social-div">
+            <div id="icon-div">
+                <a id="tweet-quote" target="_blank" href="http://www.twitter.com/intent/tweet"><i class="fa fa-twitter fa-2x"></i></a>
+                <a target="_blank" href="https://web.whatsapp.com/"><i class="fa fa-whatsapp fa-2x"></i></a>
+            </div>
+            
+        </div>
+        <div id="auto-div">
+            <div id="switch-div">
+                <Label>Auto Load Quote</Label>
+                <label class="switch" for="autoLoad">
+                    <input id="autoLoad" type="checkbox" onclick="startTimer()">
+                </label>
+            </div>
+            
+            
+        </div>
+        <div id="next-div">
+            <button id="new-quote" onclick="fetchQuote()">New Quote</button>
+        </div>
+    </div>
+    <div class="about">
+        <a target="_blank" href="https://twitter.com/tweeetharpreet">tweetharpreet</a>
+    </div>
+</body>
+
+</html>

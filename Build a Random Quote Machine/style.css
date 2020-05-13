@@ -1,0 +1,147 @@
+
+:root {
+    --tv-color:blanchedalmond;
+}
+
+body {
+    background-color: sienna;
+}
+
+#quote-box {
+
+    display: flex;
+    width: 500px;
+    height: 350px;
+    margin: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 5px solid black;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+#setting-div {
+    background-color:var(--tv-color);
+    width: 30px;
+    height: 40px;
+
+}
+
+#setting-div i {
+    margin-left: 0px;
+}
+
+#author-div {
+    background-color: var(--tv-color);
+    width: 400px;
+    height: 40px;
+    
+}
+
+#author {
+    text-align: center;
+    font-family: 'Lora', serif;
+    font-size: 30px;
+    font-weight: bold;
+    font-style:italic;
+    margin:auto;
+}
+
+#text {
+    text-align: justify;
+    font-family: 'Lora', serif;
+    font-size: 30px;
+    font-weight: bold;
+    font-style:italic;
+    margin: 10px;
+}
+
+#timer-div {
+    background-color: var(--tv-color);
+    width: 100px;
+    height: 40px;
+}
+
+#main-div {
+    width: 500px;
+    height: 270px;
+    background-color: var(--tv-color);
+}
+
+#social-div {
+    background-color: black;
+    width: 150px;
+    height: 40px;
+}
+
+#icon-div {
+    text-align: left;
+    color: white;
+}
+
+#icon-div i {
+    margin: 10px;
+    color: white;
+}
+
+#auto-div {
+    color: white;
+    font-family: 'Alegreya', serif;
+    font-size: 20px;
+    background-color: black;;
+    width: 250px;
+    height: 40px;
+}
+
+#switch-div {
+    margin-top: 10px;
+    margin-left: -20px;
+    text-align: center;
+    background-color: black;;
+}
+
+#next-div {
+    background-color: black;
+    width: 100px;
+    height: 40px;
+}
+
+#new-quote {
+    font-family: 'Alegreya', serif;
+    font-size: 20px;
+    color: white;
+    margin: auto;
+    margin-top: 10px;
+    margin-left: -40px;
+    background-color: inherit;
+    outline-style: none;
+    border: none;
+}   
+
+#new-quote:hover {
+    cursor: pointer;
+    background-color: seagreen; 
+}
+
+#timer {
+    text-align: center;
+    font-family: 'Alegreya', serif;
+    font-size: 20px;
+    color: seagreen;
+    margin: auto;
+}
+
+i:hover {
+    background-color: seagreen;
+    border: 2px solid;
+}
+
+.about {
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+.about a {
+    color: white;
+}
